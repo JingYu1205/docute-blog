@@ -12,6 +12,6 @@ git commit -m 'auto update https://github.com/JingYu1205/docute.blog.git'
 
 echo '--------commit successfully--------'
 
-git push -u https://github.com/JingYu1205/docute.blog.git main
+git push -u https://github.com/JingYu1205/docute.blog.git master
 
 echo '--------push to GitHub successfully--------'
