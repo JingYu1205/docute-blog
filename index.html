@@ -9,6 +9,7 @@
 <body>
     <div id="docute"></div>
     <script src="https://unpkg.com/docute@4/dist/docute.js"></script>
+    <script src="//unpkg.com/prismjs/components/prism-javascript.js"></script>
     <script>
         new Docute({
             title: '静Yu的笔记本',
@@ -16,7 +17,8 @@
             highlight: [
                 'typescript',
                 'go',
-                'python'
+                'python',
+                'javascript'
             ],
             // 主题切换开关
             darkThemeToggler: true,
@@ -27,25 +29,12 @@
             nav: [
                 // A dropdown menu
                 {
-                    title: '语言',
-                    children: [
-                        {
-                            title: '中文',
-                            link: '/language/chinese'
-                        },
-                        {
-                            title: '英文',
-                            link: '/language/english'
-                        }
-                    ]
-                },
-                {
                     title: 'Home',
                     link: '/'
                 },
                 {
                     title: 'CSDN',
-                    link: 'https://jingyu1205.blog.csdn.net/'
+                    link: 'https://blog.csdn.net/qq_46285118/'
                 },
                 {
                     title: 'MyBlog',
@@ -60,7 +49,7 @@
                     children: [
                         {
                             title: 'HTML',
-                            link: '/a/start'
+                            link: '/HTML'
                         },
                         {
                             title: 'CSS',
@@ -87,7 +76,7 @@
                 },
                 {
                     title: 'CSDN',
-                    link: 'https://jingyu1205.blog.csdn.net/'
+                    link: 'https://blog.csdn.net/qq_46285118/'
                 }
             ]
         })
