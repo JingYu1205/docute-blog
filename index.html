@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>My Docs</title>
+    <link rel="stylesheet" href="https://unpkg.com/docute@4/dist/docute.css">   
+</head>
+<body>
+    <div id="docute"></div>
+    <script src="https://unpkg.com/docute@4/dist/docute.js"></script>
+    <script>
+        new Docute({
+            title: 'Docute Demo',
+            // 代码高亮配置
+            highlight: [
+                'typescript',
+                'go',
+                'python'
+            ],
+            // 主题切换开关
+            darkThemeToggler: true,
+            // 顶部banner配置
+            banner: `Please <a href="https://donate.com/link">
+                  donate</a> <ExternalLinkIcon /> to support this project!`,
+            // 顶部导航栏配置
+            nav: [
+                // A dropdown menu
+                {
+                    title: '语言',
+                    children: [
+                        {
+                            title: '2',
+                            link: '/'
+                        },
+                        {
+                            title: '1',
+                            link: '/'
+                        }
+                    ]
+                },
+                {
+                    title: 'Home',
+                    link: '/'
+                },
+                {
+                    title: 'MyBlog',
+                    link: 'https://www.u1s1.vip'
+                }
+            ],
+            // 侧边栏配置
+            sidebar: [
+                // A sidebar item, with child links
+                {
+                    title: '教程',
+                    children: [
+                        {
+                            title: '快速开始',
+                            link: '/a/start'
+                        },
+                        {
+                            title: '安装',
+                            link: '/install'
+                        }
+                    ]
+                },
+                // An external link
+                {
+                    title: 'GitHub',
+                    link: 'https://github.com/egoist/docute'
+                }
+            ]
+        })
+    </script>
+</body>
+</html>
