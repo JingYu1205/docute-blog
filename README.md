@@ -6,6 +6,16 @@
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/69cf92ec734f49c2858469607dc55a2c.png)
 
+ <Badge type="tip">Tip</Badge>
+
+<Badge type="success">Success</Badge>
+
+ <Badge type="warning">Warning</Badge>
+
+ <Badge type="danger">Danger</Badge>
+
+<Badge color="magenta">Custom Color</Badge> 
+
 <h3>个人信息</h3>
 
 ```js
