@@ -8,10 +8,10 @@ git add .
 
 git status
 
-git commit -m 'auto update https://github.com/JingYu1205/notebook.git'
+git commit -m 'auto update https://github.com/JingYu1205/docute-blog.git'
 
 echo '--------commit successfully--------'
 
-git push -u https://github.com/JingYu1205/notebook.git master
+git push -u https://github.com/JingYu1205/docute-blog.git master
 
 echo '--------push to GitHub successfully--------'
