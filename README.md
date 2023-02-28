@@ -6,37 +6,24 @@
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/69cf92ec734f49c2858469607dc55a2c.png)
 
- <Badge type="tip">Tip</Badge>
-
-<Badge type="success">Success</Badge>
-
- <Badge type="warning">Warning</Badge>
-
- <Badge type="danger">Danger</Badge>
-
-<Badge color="magenta">Custom Color</Badge> 
-
 <h3>个人信息</h3>
+<Badge type="tip">Name:静Yu</Badge>
+<Badge type="success">Age:22</Badge>
+<Badge type="warning">QQ:732461427</Badge>
+<Badge color="magenta">WeChat:Kcyu68</Badge>
+<Badge type="danger">学历：双非一本</Badge> 
+<Badge type="danger">求职意向：前端开发工程师</Badge>
 
-```js
-Name: 静Yu
-Age：22
-qq: 732461427
-wechat: Kcyu68
-求职意向: 前端研发工程师(求捞)
-```
 
 <h3>技术栈</h3>
 
 ```
-熟练掌握HTML、CSS、JavaScript能够快速进行PC端开发，熟悉HTML5、CSS3新特性
-熟练掌握ES6常用语法，熟悉原型链、作用域、闭包
-熟练掌握less预编译语言以及PC端开发框架Bootstrap和Element UI
-熟练掌握Vue渐进式框架以及核心插件Vue-Router、Vuex、Vue-cli
-熟悉HTTP/HTTPS,TCP/IP等网络协议
-使用过Git、代码托管平台GitHub、webpack等工具
-了解Node.js、Ajax
-了解C后端编程语言
+熟练掌握 HTML、CSS 能够快速进行网页开发，熟悉 HTML5、CSS3 新特性，了解 CSS 预处理器 less
+熟练掌握 JavaScript，熟悉 ES6 常用语法，熟悉原型链、作用域、闭包、防抖节流等
+熟悉 swiper、Element UI 等 UI 组件库
+熟练使用 Vue 渐进式框架以及核心插件 Vue-Router、Vuex、Vue-cli
+了解 HTTP/HTTPS,TCP/IP 等网络协议
+使用过 Git、代码托管平台 GitHub、webpack 等工具
 ```
 
 <script color="0,0,255" opacity="0.5" zIndex="-1" count="99" src="https://cdn.jsdelivr.net/npm/canvas-nest.js@1/dist/canvas-nest.js"></script>
