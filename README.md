@@ -4,7 +4,7 @@
 >
 > 只有向自己提出伟大理想，并以自己全部的力量为之奋斗的人，才是最幸福的。——加里宁
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/69cf92ec734f49c2858469607dc55a2c.png)
+[![ppJZUP0.md.png](https://s1.ax1x.com/2023/03/18/ppJZUP0.md.png)](https://imgse.com/i/ppJZUP0)
 
 <h3>个人信息</h3>
 <Badge type="tip">Name:静Yu</Badge>
