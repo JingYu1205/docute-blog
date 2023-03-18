@@ -2,17 +2,18 @@
 <html>
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>静Yu的笔记本</title>
-  <link rel="stylesheet" href="https://unpkg.com/docute@4/dist/docute.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>静Yu的笔记本</title>
+    <link rel="stylesheet" href="https://unpkg.com/docute@4/dist/docute.css">
 </head>
 
 <body>
     <div id="docute"></div>
     <script src="https://unpkg.com/docute@4/dist/docute.js"></script>
     <script src="//unpkg.com/prismjs/components/prism-javascript.js"></script>
-    <script color="0,0,255" opacity="0.5" zIndex="-1" count="99" src="https://cdn.jsdelivr.net/npm/canvas-nest.js@1/dist/canvas-nest.js"></script>
+    <script color="0,0,255" opacity="0.5" zIndex="-1" count="99"
+        src="https://cdn.jsdelivr.net/npm/canvas-nest.js@1/dist/canvas-nest.js"></script>
     <script>
         new Docute({
             title: '静Yu的笔记本',
@@ -27,6 +28,12 @@
             darkThemeToggler: true,
             // 顶部banner配置
             banner: ``,
+            // true 将会默认使用 `landing.html`，也可以写成 landing: 'landing.html',
+            landing: true,
+            // 也可以用自定义页面
+            landing: '_my-landing.html',
+            // 当然 markdown 文件也可以
+            landing: 'landing.md',
             // 顶部导航栏配置
             nav: [
                 // A dropdown menu
@@ -56,7 +63,7 @@
                 },
                 {
                     title: 'computer',
-                    children:[
+                    children: [
                         {
                             title: '1.Vue项目环境变量配置',
                             link: '/computer/1.md'
@@ -65,7 +72,7 @@
                 },
                 {
                     title: 'HTML',
-                    children:[
+                    children: [
                         {
                             title: '1.',
                             link: '/HTML/DocType是干什么的？.md'
@@ -74,7 +81,7 @@
                 },
                 {
                     title: 'CSS',
-                    children:[
+                    children: [
                         {
                             title: '1.浮动塌陷问题的解决方法',
                             link: '/CSS/1.md'
@@ -91,7 +98,7 @@
                 },
                 {
                     title: 'JavaScript',
-                    children:[
+                    children: [
                         {
                             title: '1.闭包',
                             link: '/JavaScript/1.md'
@@ -160,7 +167,7 @@
                 },
                 {
                     title: 'ES6',
-                    children:[
+                    children: [
                         {
                             title: '1.ES6新增特性',
                             link: '/ES6/1.md'
@@ -217,7 +224,7 @@
                 },
                 {
                     title: 'Vue',
-                    children:[
+                    children: [
                         {
                             title: '1.MVVM模型',
                             link: '/Vue/1.md'
@@ -254,7 +261,7 @@
                 },
                 {
                     title: '计算机网络',
-                    children:[
+                    children: [
                         {
                             title: '1.跨域问题',
                             link: '/计算机网络/1.md'
@@ -263,7 +270,7 @@
                 },
                 {
                     title: '项目总结（商城）',
-                    children:[
+                    children: [
                         {
                             title: '0.技术选项',
                             link: '/项目总结/-1.md'
@@ -340,14 +347,14 @@
                 },
                 {
                     title: '后台管理系统',
-                    children:[
+                    children: [
                         {
                             title: '1.',
                             link: '/后台管理系统/1.md'
                         }
                     ]
                 }
-            // An external link
+                // An external link
             ]
         })
     </script>
